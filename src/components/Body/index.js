@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import './index.css'
+import LazyLoad from 'react-lazyload';
 
 class Body extends Component {
   render() {
@@ -14,15 +15,17 @@ class Body extends Component {
             A full-day, two-track conference on all things React, gathering Front-end and Full-stack developers across
             the globe in the tech heart of Europe. We're coming back with a new gig on <strong>April 13, 2018</strong>.
             Mark your calendars for the biggest React community event.
-            <br />
+            <br/>
             Same as last year, day before the main event, we'll host a{' '}
             <a href="https://react.amsterdam/workshops">training day</a>, with three workshops on advanced React and
             State Management as well as a crash course on React Native.
           </p>
           <div className="Body-images">
-            <img src={require('../../images/01_420.jpg')} className="Body-img" alt="01" />
-            <img src={require('../../images/02_420.jpg')} className="Body-img" alt="02" />
-            <img src={require('../../images/03_420.jpg')} className="Body-img" alt="03" />
+            <LazyLoad once scroll>
+              <img src={require('../../images/01_420.jpg')} className="Body-img" alt="01"/>
+              <img src={require('../../images/02_420.jpg')} className="Body-img" alt="02"/>
+              <img src={require('../../images/03_420.jpg')} className="Body-img" alt="03"/>
+            </LazyLoad>
           </div>
         </div>
       </div>
