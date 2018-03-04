@@ -20,9 +20,9 @@ class Body extends Component {
             State Management as well as a crash course on React Native.
           </p>
           <div className="Body-images">
-            <img src={require('../../images/01.jpg')} className="Body-img" alt="01" />
-            <img src={require('../../images/02.jpg')} className="Body-img" alt="02" />
-            <img src={require('../../images/03.jpg')} className="Body-img" alt="03" />
+            <img src={require('../../images/01_420.jpg')} className="Body-img" alt="01" />
+            <img src={require('../../images/02_420.jpg')} className="Body-img" alt="02" />
+            <img src={require('../../images/03_420.jpg')} className="Body-img" alt="03" />
           </div>
         </div>
       </div>
