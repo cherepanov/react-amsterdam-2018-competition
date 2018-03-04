@@ -5,15 +5,23 @@ import overlay from './overlay_bg.svg'
 import './index.css'
 
 class Header extends Component {
+  componentDidMount() {
+    document.onreadystatechange = () => {
+      if (document.readyState === 'complete') {
+        this.video.play();
+      }
+    }
+  }
+
   render() {
     return (
       <header className="Header-header">
         <video
           className="Header-video"
-          preload="auto"
+          preload="none"
           muted
-          autoPlay
           loop
+          ref={video => this.video = video}
           poster="https://react.amsterdam/img/dummy_bg.jpg"
           id="bgvid">
           <source src="https://react.amsterdam/video/video-.webm" type="video/webm" />
