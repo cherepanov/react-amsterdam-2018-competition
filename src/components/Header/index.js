@@ -27,7 +27,12 @@ class Header extends Component {
           <source src="https://react.amsterdam/video/video-.webm" type="video/webm" />
           <source src="https://react.amsterdam/video/video.mp4" type="video/mp4" />
         </video>
-
+{/*
+background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+background-size:4px 4px;
+background-position:0 0;
+*/}
         <div className="Header-overlay" style={{ background: `url(${overlay}) 50% rgba(0, 0, 0, .4)` }} />
 
         <div className="Header-wrapper">
