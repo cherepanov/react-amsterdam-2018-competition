@@ -12,17 +12,25 @@
   "bugs": {
     "url": "https://github.com/spb-frontend/react-amsterdam-2017-competition/issues"
   },
-  "homepage": "https://github.com/spb-frontend/react-amsterdam-2017-competition#readme",
+  "_homepage": "https://github.com/spb-frontend/react-amsterdam-2017-competition#readme",
   "dependencies": {
+    "i": "^0.3.6",
+    "npm": "^5.7.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-lazyload": "^2.3.0",
     "react-scripts": "1.1.0",
+    "react-static-generator": "^0.1.2",
     "webfontloader": "^1.6.28"
+  },
+  "static": {
+    "paths": ["/"],
+    "outputPath": "build"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:static": "react-scripts build && react-static",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "yarn build && gh-pages -d build -m Updates [ci skip]",
