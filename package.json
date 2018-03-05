@@ -14,17 +14,16 @@
   },
   "_homepage": "https://github.com/spb-frontend/react-amsterdam-2017-competition#readme",
   "dependencies": {
-    "i": "^0.3.6",
-    "npm": "^5.7.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-lazyload": "^2.3.0",
     "react-scripts": "1.1.0",
-    "react-static-generator": "^0.1.2",
     "webfontloader": "^1.6.28"
   },
   "static": {
-    "paths": ["/"],
+    "paths": [
+      "/"
+    ],
     "outputPath": "build"
   },
   "scripts": {
@@ -52,6 +51,7 @@
     "gh-pages": "^1.1.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.1.1",
+    "react-static-generator": "^0.1.2",
     "stylelint": "^9.0.0",
     "stylelint-config-standard": "^18.1.0"
   }
