@@ -22,13 +22,13 @@ class Body extends Component {
           </p>
           <div className="Body-images">
             <LazyLoad once scroll>
-              <img src={require('../../images/01_420.jpg')} className="Body-img" alt="01"/>
+              <img lazy src={require('../../images/01_420.png')} className="Body-img" alt="01"/>
             </LazyLoad>
             <LazyLoad once scroll>
-              <img src={require('../../images/02_420.jpg')} className="Body-img" alt="02"/>
+              <img lazy src={require('../../images/02_420.jpg')} className="Body-img" alt="02"/>
             </LazyLoad>
             <LazyLoad once scroll>
-              <img src={require('../../images/03_420.jpg')} className="Body-img" alt="03"/>
+              <img lazy src={require('../../images/03_420.jpg')} className="Body-img" alt="03"/>
             </LazyLoad>
           </div>
         </div>

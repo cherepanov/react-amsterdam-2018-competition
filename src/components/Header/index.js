@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import ralogo from './ralogo.svg'
 import spbflogo from './spbflogo.svg'
-// import overlay from './overlay_bg.svg'
 import './index.css'
 
 class Header extends Component {
