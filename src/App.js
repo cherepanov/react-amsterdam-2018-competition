@@ -4,10 +4,6 @@ import Header from './components/Header'
 import Body from './components/Body'
 import Footer from './components/Footer'
 
-import 'jquery'
-import 'bootstrap/dist/js/bootstrap.js'
-import 'bootstrap/dist/css/bootstrap.css'
-
 class App extends Component {
   render() {
     return (
