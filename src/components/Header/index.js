@@ -18,14 +18,13 @@ class Header extends Component {
       <header className="Header-header">
         <video
           className="Header-video"
-          preload="none"
+          preload="metadata"
           muted
           loop
           ref={video => this.video = video}
-          poster={require('../../images/dummy_bg-min.jpg')}
           id="bgvid">
-          <source src="https://react.amsterdam/video/video.webm" type="video/webm" />
-          <source src="https://react.amsterdam/video/video.mp4" type="video/mp4" />
+          <source src="https://react.amsterdam/video/video.webm#t=0.5" type="video/webm" />
+          <source src="https://react.amsterdam/video/video.mp4#t=0.5" type="video/mp4" />
         </video>
         <div className="Header-overlay" style={{
           backgroundImage: `linear-gradient(45deg, black 26%, transparent 25%, transparent 75%, black 75%, black),
