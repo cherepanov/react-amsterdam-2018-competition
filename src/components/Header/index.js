@@ -27,7 +27,6 @@ class Header extends Component {
           <source src="https://react.amsterdam/video/video.webm" type="video/webm" />
           <source src="https://react.amsterdam/video/video.mp4" type="video/mp4" />
         </video>
-        {/*<div className="Header-overlay" style={{ background: 'url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPjxkZWZzPjxzdHlsZT4uY2xzLTF7b3BhY2l0eTouNH08L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNMCAwaDJ2MkgweiIgY2xhc3M9ImNscy0xIi8+PHBhdGggaWQ9IlJlY3RhbmdsZV8xX2NvcHkiIGQ9Ik0yIDJoMnYySDJ6IiBjbGFzcz0iY2xzLTEiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDEgY29weSIvPjwvc3ZnPg==) 50% rgba(0, 0, 0, .4)' }} />*/}
         <div className="Header-overlay" style={{
           backgroundImage: `linear-gradient(45deg, black 26%, transparent 25%, transparent 75%, black 75%, black),
                             linear-gradient(45deg, black 26%, transparent 25%, transparent 75%, black 75%, black)`,

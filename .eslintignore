@@ -1,6 +1,8 @@
 /node_modules/*
 /assets/*
 /docs/*
+/config/
+/scripts/
 /public/*
 /static/*
 /plugins/**
