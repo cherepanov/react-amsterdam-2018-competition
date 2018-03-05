@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ralogo from './ralogo.svg'
 import spbflogo from './spbflogo.svg'
-import './index.css'
+// import './index.css'
 
 class Header extends Component {
   componentDidMount() {
