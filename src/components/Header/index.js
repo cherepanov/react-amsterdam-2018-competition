@@ -5,10 +5,16 @@ import React, { Component } from 'react'
 
 class Header extends Component {
   componentDidMount() {
-    document.onreadystatechange = () => {
-      if (document.readyState === 'complete') {
-        this.video.play();
-      }
+    console.log(document.readyState); //eslint-disable-line
+    if(document.readyState === 'complete') {
+      this.video.play();
+    } else {
+      document.addEventListener('readystatechange', () => {
+        debugger; //eslint-disable-line
+        if (document.readyState === 'complete') {
+          this.video.play();
+        }
+      })
     }
   }
 

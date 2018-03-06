@@ -5,7 +5,8 @@ import Footer from './components/Footer'
 
 class App extends Component {
   componentDidMount() {
-    document.onreadystatechange = () => {
+    document.addEventListener('readystatechange', () => {
+      debugger
       if (document.readyState === 'complete') {
         const element = document.createElement('style');
         element.type = 'text/css';
@@ -26,7 +27,7 @@ class App extends Component {
           '}'));
         document.getElementsByTagName('head')[0].appendChild(element);
       }
-    }
+    });
   }
 
   render() {
