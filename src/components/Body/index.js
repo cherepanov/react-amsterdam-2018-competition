@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
-// import './index.css'
-import LazyLoad from 'react-lazyload';
+import LazyLoad  from 'react-lazyload';
 
 class Body extends Component {
   render() {
@@ -21,14 +20,14 @@ class Body extends Component {
             State Management as well as a crash course on React Native.
           </p>
           <div className="Body-images">
-            <LazyLoad once scroll>
-              <img lazy src={require('../../images/01_420.png')} className="Body-img" alt="01"/>
+            <LazyLoad once>
+              <img src={require('../../images/01_420.png')} alt="01"/>
             </LazyLoad>
-            <LazyLoad once scroll>
-              <img lazy src={require('../../images/02_420.jpg')} className="Body-img" alt="02"/>
+            <LazyLoad once>
+              <img src={require('../../images/02_420.jpg')} alt="02"/>
             </LazyLoad>
-            <LazyLoad once scroll>
-              <img lazy src={require('../../images/03_420.jpg')} className="Body-img" alt="03"/>
+            <LazyLoad once>
+              <img src={require('../../images/03_420.jpg')} alt="03"/>
             </LazyLoad>
           </div>
         </div>

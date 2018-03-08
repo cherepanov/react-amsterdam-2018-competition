@@ -35,17 +35,17 @@
   color: transparent;
 }
 
-.Body-img {
+.Body-images {
+  display: flex;
+  justify-content: center;
+}
+
+.Body-images img {
   width: calc(100% / 3);
   height: 280px;
   margin-bottom: 20px;
   flex-grow: 1;
   object-fit: cover;
-}
-
-.Body-images {
-  display: flex;
-  justify-content: center;
 }
 
 .Body-title small {
