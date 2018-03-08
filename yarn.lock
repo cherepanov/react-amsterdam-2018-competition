@@ -6559,6 +6559,12 @@ relateurl@0.2.x:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
 
+relaze@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/relaze/-/relaze-1.0.1.tgz#6719932edad13185f75d479909a9c9b033ff9efe"
+  dependencies:
+    srraf "^0.1.0"
+
 remark-parse@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-4.0.0.tgz#99f1f049afac80382366e2e0d0bd55429dd45d8b"
@@ -7212,6 +7218,10 @@ split-string@^3.0.1, split-string@^3.0.2:
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
+srraf@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/srraf/-/srraf-0.1.0.tgz#531bab162393e321fd24c280452a51128a7d2ace"
 
 sshpk@^1.7.0:
   version "1.13.1"

@@ -22,7 +22,6 @@ class Header extends Component {
     return (
       <header className="Header-header">
         <video
-          className="Header-video"
           preload="metadata"
           muted
           loop
@@ -30,7 +29,6 @@ class Header extends Component {
           id="bgvid">
           <source src="https://react.amsterdam/video/video.webm#t=0.5" type="video/webm" />
           <source src="https://react.amsterdam/video/video.mp4#t=0.5" type="video/mp4" />
-          {/*<source src="https://dmf9cnjua2s32.cloudfront.net/media/vGlo2DsinshgY/4115e253/video_5265_1080_1300.mp4#t=0.5" type="video/mp4" />*/}
         </video>
         <div className="Header-overlay" style={{
           backgroundImage: `linear-gradient(45deg, black 26%, transparent 25%, transparent 75%, black 75%, black),

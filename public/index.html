@@ -17,8 +17,6 @@
 
     html {
       line-height: 1.15;
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%
     }
 
     a {
@@ -68,8 +66,8 @@
     .Header-logo{height:80px;}
     .Header-logo+.Header-logo{margin-left:40px;}
     .Header-title{font:100px/1.16 sans-serif;font-weight:900;color:#fff;}
-    .Header-video{z-index:-1;-o-object-fit:cover;object-fit:cover;}
-    .Header-overlay,.Header-video{position:absolute;width:100%;height:100%;top:0;left:0;}
+    video{z-index:-1;-o-object-fit:cover;object-fit:cover;}
+    .Header-overlay, video{position:absolute;width:100%;height:100%;top:0;left:0;}
     .Header-overlay{z-index:0;}
     .Header-wrapper{position:relative;min-height:100%;z-index:1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:center;align-content:center;-ms-flex-positive:1;flex-grow:1;}
     .Body-body{display:-ms-flexbox;display:flex;padding:32px;-ms-flex-direction:column;flex-direction:column;background:#1a1d1b;color:#fff;}
@@ -77,7 +75,7 @@
     .Body-container p{font:20px/1.6 sans-serif;font-weight:200;max-width:960px;margin:18px auto;}
     .Body-container strong{font-weight:900;}
     .Body-title{width:100%;font:68px/1.12 sans-serif;font-weight:900;text-transform:uppercase;margin:14px 0 46px;background:-webkit-linear-gradient(300deg,#9f0,#00dd3b);background:-o-linear-gradient(300deg,#9f0,#00dd3b);background:linear-gradient(150deg,#9f0,#00dd3b);background-clip:text;-webkit-background-clip:text;color:transparent;}
-    .Body-images{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;}
+    .Body-images{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center; height: 280px;}
     .Body-images img { width: calc(100% / 3); height: 280px; margin-bottom: 20px; flex-grow: 1; object-fit: cover;}
     .Body-title small{font:34px/1.4 sans-serif;font-weight:100;margin:58px 0 14px;color:#fff;}
     .Footer-footer{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;padding:0 32px 32px;background:#1a1d1b;color:#fff;}

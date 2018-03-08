@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import LazyLoad  from 'react-lazyload';
+import Lazy from 'relaze'
 
 class Body extends Component {
   render() {
@@ -20,15 +20,15 @@ class Body extends Component {
             State Management as well as a crash course on React Native.
           </p>
           <div className="Body-images">
-            <LazyLoad once>
-              <img src={require('../../images/01_420.png')} alt="01"/>
-            </LazyLoad>
-            <LazyLoad once>
-              <img src={require('../../images/02_420.jpg')} alt="02"/>
-            </LazyLoad>
-            <LazyLoad once>
-              <img src={require('../../images/03_420.jpg')} alt="03"/>
-            </LazyLoad>
+            <Lazy src={require('../../images/01_420.png')}>
+              <img alt="01"/>
+            </Lazy>
+            <Lazy src={require('../../images/02_420.jpg')}>
+              <img alt="02"/>
+            </Lazy>
+            <Lazy src={require('../../images/03_420.jpg')}>
+              <img alt="03"/>
+            </Lazy>
           </div>
         </div>
       </div>
