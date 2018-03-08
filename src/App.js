@@ -20,7 +20,7 @@ const loadFont = () => {
        font-weight: 300;
        src: local('Open Sans'), url('/fonts/OSl.woff2') format('woff2'), url('/fonts/OSl.woff') format('woff');
     }`));
-  document.getElementsByTagName('head')[0].appendChild(element);
+  document.head.appendChild(element);
   Promise.all([ // eslint-disable-line
     new FontFaceObserver('Open Sans', {
       weight: 'bold'
