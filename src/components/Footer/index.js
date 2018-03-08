@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 
 class Footer extends Component {
   render() {
-    return <footer className="Footer-footer">
+    return <footer className="FF">
       <a href="//spb-frontend.ru">SPB Frontend 2018</a>
     </footer>
   }

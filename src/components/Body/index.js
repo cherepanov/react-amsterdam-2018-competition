@@ -4,9 +4,9 @@ import Lazy from 'relaze'
 class Body extends Component {
   render() {
     return (
-      <div className="Body-body">
-        <div className="Body-container">
-          <h2 className="Body-title">
+      <div className="BB">
+        <div className="BC">
+          <h2 className="BT">
             <small>React Amsterdam is a celebration of good things coming together:</small>
             <div>REACT THAT ROCKS AND SPRING IN AMSTERDAM THAT BLOSSOMS</div>
           </h2>
@@ -19,7 +19,7 @@ class Body extends Component {
             <a href="https://react.amsterdam/workshops">training day</a>, with three workshops on advanced React and
             State Management as well as a crash course on React Native.
           </p>
-          <div className="Body-images">
+          <div className="BIS">
             <Lazy src={require('../../images/01_420.png')}>
               <img alt="01"/>
             </Lazy>
