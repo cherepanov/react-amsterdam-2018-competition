@@ -8,19 +8,18 @@ const loadFont = () => {
   const element = document.createElement('style');
   element.type = 'text/css';
   element.appendChild(document.createTextNode(
-    '@font-face {\n' +
-    '  font-family: \'Open Sans\';\n' +
-    '  font-style: normal;\n' +
-    '  font-weight: bold;\n' +
-    '  src: local(\'Open Sans\'), url(\'/fonts/Open_Sans/subset-OpenSans-Bold.woff2\') format(\'woff2\'), url(\'/fonts/Open_Sans/subset-OpenSans-Bold.woff\') format(\'woff\');\n' +
-    '}\n' +
-    '\n' +
-    '@font-face {\n' +
-    '  font-family: \'Open Sans\';\n' +
-    '  font-style: normal;\n' +
-    '  font-weight: 300;\n' +
-    '  src: local(\'Open Sans\'), url(\'/fonts/Open_Sans/subset-OpenSans-Light.woff2\') format(\'woff2\'), url(\'/fonts/Open_Sans/subset-OpenSans-Light.woff\') format(\'woff\');\n' +
-    '}'));
+    `@font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: bold;
+      src: local('Open Sans'), url('/fonts/OSb.woff2') format('woff2'), url('/fonts/OSb.woff') format('woff');
+    }
+    @font-face {
+       font-family: 'Open Sans';
+       font-style: normal;
+       font-weight: 300;
+       src: local('Open Sans'), url('/fonts/OSl.woff2') format('woff2'), url('/fonts/OSl.woff') format('woff');
+    }`));
   document.getElementsByTagName('head')[0].appendChild(element);
   Promise.all([ // eslint-disable-line
     new FontFaceObserver('Open Sans', {
