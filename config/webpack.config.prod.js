@@ -275,7 +275,7 @@ module.exports = {
     new webpack.DefinePlugin(env.stringified),
     new webpack.NamedModulesPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
-      names: ['vendor', 'manifest'],
+      names: ['vendor'/*, 'manifest'*/],
       minChunks: Infinity
     }),
     // Minify the code.
