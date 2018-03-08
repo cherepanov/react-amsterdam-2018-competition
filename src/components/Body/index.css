@@ -15,8 +15,7 @@
 }
 
 .Body-container p {
-  font: 20px/1.6 sans-serif;
-  font-weight: 200;
+  font: 200 20px/1.6 sans-serif;
   max-width: 960px;
   margin: 18px auto;
 }
@@ -27,8 +26,7 @@
 
 .Body-title {
   width: 100%;
-  font: 68px/1.12 sans-serif;
-  font-weight: 900;
+  font: 900 68px/1.12 sans-serif;
   text-transform: uppercase;
   margin: 14px 0 46px;
   background: linear-gradient(150deg, #9f0, #00dd3b);
@@ -51,8 +49,7 @@
 }
 
 .Body-title small {
-  font: 34px/1.4 sans-serif;
-  font-weight: 100;
+  font: 100 34px/1.4 sans-serif;
   margin: 58px 0 14px;
   color: #fff;
 }
