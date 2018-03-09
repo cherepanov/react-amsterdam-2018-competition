@@ -61,7 +61,7 @@
   },
   "scripts": {
     "start": "BROWSER=none node scripts/start.js",
-    "start:prod": "node scripts/build.js && serve -s build -p 3001",
+    "start:prod": "PUBLIC_URL=/ node scripts/build.js && serve -s build -p 3001",
     "build": "node scripts/build.js",
     "build:static": "node scripts/build.js && react-static",
     "test": "node scripts/test.js --env=jsdom",

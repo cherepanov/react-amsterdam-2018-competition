@@ -1,21 +1,16 @@
 import React, { Component } from 'react'
-// import ralogo from './ralogo.svg'
-// import spbflogo from './spbflogo.svg'
-// import './index.css'
 
 class Header extends Component {
   componentDidMount() {
-    console.log(document.readyState); //eslint-disable-line
-    if(document.readyState === 'complete') {
-      this.video.play();
-    } else {
+    // if(document.readyState === 'complete') {
+    //   this.video.play();
+    // } else {
       document.addEventListener('readystatechange', () => {
-        debugger; //eslint-disable-line
         if (document.readyState === 'complete') {
           this.video.play();
         }
       })
-    }
+    // }
   }
 
   render() {
