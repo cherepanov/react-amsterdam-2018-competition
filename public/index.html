@@ -79,6 +79,7 @@
 
     .HT {
       font: 900 100px/1.16 sans-serif;
+      padding-bottom: 0.1em;
       color: #fff;
     }
 
@@ -176,10 +177,21 @@
       color: #fff;
     }
 
-    .FF a {
-      color: inherit;
+    a, a:visited {
+      color: #007bff;
       text-decoration: none;
       background-color: transparent;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .FF a, .FF a:visited {
+      color: inherit;
+    }
+    .FF a:hover {
+      color: #0056b3;
     }
   </style>
 </head>
