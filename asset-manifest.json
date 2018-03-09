@@ -1,9 +1,9 @@
 {
-  "app.js": "static/js/app.e8bb0261.js",
-  "app.js.map": "static/js/app.e8bb0261.js.map",
+  "app.js": "static/js/app.417d7555.js",
+  "app.js.map": "static/js/app.417d7555.js.map",
   "static/media/01_420.png": "static/media/01_420.2dd8c88c.png",
   "static/media/02_420.jpg": "static/media/02_420.228c83c4.jpg",
   "static/media/03_420.jpg": "static/media/03_420.6e202503.jpg",
-  "vendor.js": "static/js/vendor.171c559a.js",
-  "vendor.js.map": "static/js/vendor.171c559a.js.map"
+  "vendor.js": "static/js/vendor.606030fa.js",
+  "vendor.js.map": "static/js/vendor.606030fa.js.map"
 }
