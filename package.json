@@ -1,18 +1,18 @@
 {
-  "name": "react-amsterdam-2017-competition",
+  "name": "react-amsterdam-2018-competition",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://spb-frontend@github.com/react-amsterdam-2017-competition.git"
+    "url": "git+https://github.com/cherepanov/react-amsterdam-2018-competition.git"
   },
   "author": "Alex Kurganov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spb-frontend/react-amsterdam-2017-competition/issues"
+    "url": "https://github.com/cherepanov/react-amsterdam-2018-competition/issues"
   },
-  "_homepage": "https://github.com/spb-frontend/react-amsterdam-2017-competition#readme",
+  "homepage": "https://cherepanov.github.com/react-amsterdam-2018-competition",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
