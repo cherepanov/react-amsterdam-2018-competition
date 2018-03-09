@@ -25,13 +25,7 @@ class Header extends Component {
           <source src="https://react.amsterdam/video/video.webm#t=0.5" type="video/webm" />
           <source src="https://react.amsterdam/video/video.mp4#t=0.5" type="video/mp4" />
         </video>
-        <div className="HO" style={{
-          backgroundImage: `linear-gradient(45deg, black 26%, transparent 25%, transparent 75%, black 75%, black),
-                            linear-gradient(45deg, black 26%, transparent 25%, transparent 75%, black 75%, black)`,
-          backgroundSize: '4px 4px',
-          backgroundColor: 'rgba(0, 0, 0, 0.4)',
-          backgroundPosition: '0 0, 2px 2px'
-        }} />
+        <div className="HO"/>
 
         <div className="HW">
           <div className="HLS">
