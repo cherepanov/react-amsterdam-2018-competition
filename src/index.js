@@ -1,7 +1,7 @@
 import React, {render} from 'react';
 import App from './App';
 import FontFaceObserver from 'fontfaceobserver'
-import css from './index.css'
+// import css from './index.css'
 
 const ASSETS_PATH=process.env.PUBLIC_URL || '';
 
